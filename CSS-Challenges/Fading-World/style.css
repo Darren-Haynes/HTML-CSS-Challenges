@@ -1,0 +1,18 @@
+.box:before {
+    content: "Hello World";
+    background: linear-gradient(to left, #c4c5c3, #4f5a74);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 28px;
+    border: 1px solid #c39f76;
+    box-sizing: border-box;
+}
