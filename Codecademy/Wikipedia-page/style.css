@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    /*letter-spacing: 0.1cap;*/
+    display: inline-block;
+}
+
+.big-letter {
+    font-size: 24px;
+}
+
+.header-std {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid green;
+    height: 80px;
+    width: 300px;
+}
+
+#logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#hamburger {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#wiki-title,
+#logo-text {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+#logo-text p {
+    font-size: 13px;
+}
+
+#wiki-title {
+    margin-top: -5px;
+}
