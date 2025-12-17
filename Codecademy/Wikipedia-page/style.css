@@ -46,7 +46,6 @@ h1 {
     background-color: #fff;
     height: 80px;
     width: 300px;
-    border: 1px solid green;
 }
 
 #logo {
@@ -59,7 +58,7 @@ h1 {
 #hamburger {
     display: inline-block;
     vertical-align: top;
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: 20px;
 }
 
@@ -76,6 +75,16 @@ h1 {
 
 #wiki-title {
     margin-top: -5px;
+}
+
+@media screen and (max-width: 640px) {
+    #logo {
+        display: none;
+    }
+
+    #wiki-title {
+        margin-left: 10px;
+    }
 }
 
 /*
@@ -120,7 +129,7 @@ input[type="text"] {
 
 @media screen and (max-width: 1100px) {
     #search {
-        width: calc(100% - 580px);
+        width: calc(100% - 560px);
         padding-right: 0;
         text-align: right;
     }
@@ -140,15 +149,30 @@ input[type="text"] {
     }
 }
 
+@media screen and (max-width: 640px) {
+    #search {
+        width: calc(100% - 360px);
+        padding-right: 20px;
+    }
+    #search-icon,
+    #spectacles-icon {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+    #spectacles-icon {
+        margin-top: 13px;
+    }
+}
 /*
 Header Links
 */
 #header-links-box {
     width: calc(100% - 810px);
-    min-width: 280px;
+    min-width: 260px;
     text-align: right;
     padding-top: 23px;
-    padding-right: 54px;
+    padding-right: 20px;
 }
 #header-links {
     text-align: right;
@@ -157,7 +181,7 @@ Header Links
 #header-links > li {
     text-align: right;
     display: inline-block;
-    padding-right: 5px;
+    padding-right: 8px;
 }
 
 #header-links > li > a {
@@ -166,7 +190,25 @@ Header Links
 
 @media screen and (max-width: 1100px) {
     #header-links-box {
-        width: 280px;
+        width: 260px;
         font-size: 12px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #header-links-box::before {
+        content: "...";
+        font-size: 30px;
+    }
+    #header-links-box {
+        width: 60px;
+        min-width: 50px;
+        padding-right: 20px;
+        padding-top: 7px;
+        float: right;
+    }
+    #header-links {
+        display: none;
     }
 }
