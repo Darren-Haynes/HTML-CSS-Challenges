@@ -27,6 +27,7 @@ sidebar {
     color: black;
     cursor: pointer;
     font-size: 16px;
+    padding: 0 6px;
 }
 
 sidebar > #link-ography > ul > li > a {
@@ -65,8 +66,37 @@ article > h1 {
  * Options styles
  */
 options {
+    vertical-align: top;
     display: inline-block;
     height: 100px;
     width: 300px;
     background-color: green;
+    padding-left: 20px;
+}
+
+#options-header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+#options-header > h4 {
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 12px;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    display: block;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+label {
+    font-size: 16px;
 }

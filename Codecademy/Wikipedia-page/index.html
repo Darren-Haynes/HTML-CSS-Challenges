@@ -93,7 +93,115 @@
                 </div>
                 <p>This is a sample Wikipedia page.</p>
             </article>
-            <options></options>
+            <options>
+                <div id="options-header">
+                    <h4>Appearance</h4>
+                    <button id="hide-btn">hide</button>
+                </div>
+                <div id="link-ography">
+                    <!--WIDTH RADIO-->
+                    <form action="/submit-page" method="post">
+                        <fieldset>
+                            <legend>Text</legend>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="small"
+                                    name="contact"
+                                    value="small"
+                                />
+                                <label for="small">Small</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="standard"
+                                    name="contact"
+                                    value="standard"
+                                    checked
+                                />
+                                <label for="standard">Standard</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="large"
+                                    name="contact"
+                                    value="large"
+                                />
+                                <label for="large">Large</label>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <!--WIDTH RADIO-->
+                    <form action="/submit-page" method="post">
+                        <fieldset>
+                            <legend>Width</legend>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="standard-width"
+                                    name="contact"
+                                    value="standard-width"
+                                    checked
+                                />
+                                <label for="standard-width">Standard</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="wide"
+                                    name="contact"
+                                    value="wide"
+                                />
+                                <label for="wide">Wide</label>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <!--COLOR RADIO-->
+                    <form action="/submit-page" method="post">
+                        <fieldset>
+                            <legend>Color (beta)</legend>
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="automatic"
+                                    name="contact"
+                                    value="automatic"
+                                />
+                                <label for="automatic">Automatic</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="light"
+                                    name="contact"
+                                    value="light"
+                                    checked
+                                />
+                                <label for="light">Light</label>
+                            </div>
+
+                            <div>
+                                <input
+                                    type="radio"
+                                    id="dark"
+                                    name="contact"
+                                    value="dark"
+                                />
+                                <label for="dark">Dark</label>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </options>
         </main>
     </body>
 </html>
