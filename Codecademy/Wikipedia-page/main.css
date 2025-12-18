@@ -29,9 +29,9 @@ h6 {
     font-size: 14px;
     color: #3366cb;
     background-color: #ccdeff;
-    margin: 6px 0;
+    margin-top: 6px;
     padding: 5px 0;
-    border: 1px solid #a3a9b1;
+    border-top: 1px solid #a3a9b1;
 }
 
 a:link {
@@ -150,11 +150,31 @@ article > h1 {
     display: inline-block;
     vertical-align: top;
     width: 325px;
-    height: 100px;
     background-color: #f8f9fa;
     border: 1px solid #a3a9b1;
     padding: 5px 0;
     text-align: center;
+}
+
+#flags,
+#anthem {
+    background-color: inherit;
+    padding: 8px 0;
+    border-top: 1px solid #a3a9b1;
+}
+
+#flags > figure > figcaption > a {
+    font-size: 14px;
+}
+
+#flags > figure {
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+#anthem > p,
+#anthem > p > strong {
+    font-size: 14px;
 }
 
 /*
