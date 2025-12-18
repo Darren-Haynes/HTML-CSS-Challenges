@@ -35,7 +35,7 @@ h6 {
 }
 
 a:link {
-    font-size: 14px;
+    font-size: 16px;
     color: #3366cb;
     text-decoration: none;
 }
@@ -52,11 +52,27 @@ figure {
     margin: 0;
 }
 
+strong,
+em {
+    font-size: 16px;
+}
+
+a:visited {
+    font-size: 16px;
+    color: #6a60b0;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
 /*
  * Sidebar styles
  */
 sidebar {
     display: inline-block;
+    vertical-align: top;
     height: 100px;
     width: 300px;
     background-color: white;
@@ -113,12 +129,10 @@ article > h1 {
     float: right;
 }
 
-#article-talk > a {
-    padding-right: 10px;
-}
-
+#article-talk > a,
 #read-edit > a {
     padding-right: 10px;
+    font-size: 14px;
 }
 
 #wiki-byline {
