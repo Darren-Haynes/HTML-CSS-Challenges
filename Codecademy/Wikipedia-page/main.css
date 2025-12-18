@@ -177,6 +177,15 @@ article > h1 {
     font-size: 14px;
 }
 
+#maps > figure > img {
+    padding-bottom: 5px;
+}
+
+#maps > figure > figcaption > a,
+#maps > figure > figcaption {
+    font-size: 14px;
+}
+
 /*
  * Options styles
  */
