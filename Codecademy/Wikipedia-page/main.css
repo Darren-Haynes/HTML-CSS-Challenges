@@ -11,11 +11,44 @@ hr {
     border-bottom: 1px solid #eaecf0;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+h5 > em {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 15px;
+    color: #3366cb;
+    background-color: #ccdeff;
+    margin: 6px 0;
+    padding: 5px 0;
+    border: 1px solid #a3a9b1;
+}
+
+a:link {
+    font-size: 16px;
+    color: #3366cb;
+    text-decoration: none;
+}
+
 blockquote {
     text-indent: 40px;
     font-size: 18px;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+figure {
+    display: inline-block;
+    margin: 0;
 }
 
 /*
@@ -61,7 +94,6 @@ article {
     display: inline-block;
     height: 100px;
     width: calc(100% - 600px);
-    background-color: yellow;
 }
 
 article > h1 {
@@ -95,6 +127,22 @@ article > h1 {
     margin-top: 8px;
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+#main-article {
+    display: inline-block;
+    width: calc(100% - 325px);
+}
+
+#overview {
+    display: inline-block;
+    vertical-align: top;
+    width: 325px;
+    height: 100px;
+    background-color: #f8f9fa;
+    border: 1px solid #a3a9b1;
+    padding: 5px 0;
+    text-align: center;
 }
 
 /*
