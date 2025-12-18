@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="header.css" />
+        <link rel="stylesheet" href="main.css" />
         <title>Wiki-Alike</title>
     </head>
     <body>
@@ -63,5 +64,36 @@
                 </ul>
             </div>
         </header>
+
+        <main>
+            <!--SIDEBAR WITH LINKS-->
+            <sidebar>
+                <div id="sidebar-header">
+                    <h4>Contents</h4>
+                    <button id="hide-btn">hide</button>
+                </div>
+                <div id="link-ography">
+                    <ul>
+                        <li><a href="http://dummy">Home</a></li>
+                        <li><a href="http://dummy">About</a></li>
+                        <li><a href="http://dummy">Contact</a></li>
+                    </ul>
+                </div>
+            </sidebar>
+
+            <!--MAIN ARTICLE-->
+            <article>
+                <h1>Sark</h1>
+                <div id="tool-links">
+                    <div id="article-talk">
+                        <a href="http://dummy">Article</a>
+                        <a href="http://dummy">Talk</a>
+                    </div>
+                    <div id="read-edit"></div>
+                </div>
+                <p>This is a sample Wikipedia page.</p>
+            </article>
+            <options></options>
+        </main>
     </body>
 </html>

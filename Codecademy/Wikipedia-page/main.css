@@ -1,0 +1,72 @@
+/*
+ * Sidebar styles
+ */
+sidebar {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    font-size: 16px;
+}
+
+#sidebar-header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+#sidebar-header > h4 {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#hide-btn {
+    background-color: #eaecf0;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+sidebar > #link-ography > ul > li > a {
+    font-size: 16px;
+}
+
+/*
+ * Article styles
+ */
+article {
+    display: inline-block;
+    height: 100px;
+    width: calc(100% - 600px);
+    background-color: yellow;
+}
+
+article > h1 {
+    display: block;
+    text-transform: capitalize;
+    font-size: 30px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+#article-talk {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+#article-talk > a {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+/*
+ * Options styles
+ */
+options {
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
