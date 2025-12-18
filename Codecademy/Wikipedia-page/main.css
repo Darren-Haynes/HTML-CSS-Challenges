@@ -3,7 +3,8 @@ GLOBAL styles
 */
 
 p {
-    font-size: 18px;
+    font-size: 16px;
+    word-spacing: 1px;
     margin-bottom: 10px;
 }
 
@@ -12,7 +13,7 @@ hr {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h5 {
@@ -25,7 +26,7 @@ h5 > em {
 }
 
 h6 {
-    font-size: 15px;
+    font-size: 14px;
     color: #3366cb;
     background-color: #ccdeff;
     margin: 6px 0;
@@ -34,14 +35,14 @@ h6 {
 }
 
 a:link {
-    font-size: 16px;
+    font-size: 14px;
     color: #3366cb;
     text-decoration: none;
 }
 
 blockquote {
     text-indent: 40px;
-    font-size: 18px;
+    font-size: 16px;
     font-style: italic;
     margin-bottom: 10px;
 }
@@ -59,7 +60,6 @@ sidebar {
     height: 100px;
     width: 300px;
     background-color: white;
-    font-size: 16px;
 }
 
 #sidebar-header {
@@ -69,7 +69,7 @@ sidebar {
 
 #sidebar-header > h4 {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -79,12 +79,12 @@ sidebar {
     border: none;
     color: black;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 6px;
 }
 
 sidebar > #link-ography > ul > li > a {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 /*
@@ -114,12 +114,10 @@ article > h1 {
 }
 
 #article-talk > a {
-    font-size: 16px;
     padding-right: 10px;
 }
 
 #read-edit > a {
-    font-size: 16px;
     padding-right: 10px;
 }
 
@@ -164,7 +162,7 @@ options {
 
 #options-header > h4 {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     padding-right: 12px;
 }
 
@@ -174,12 +172,12 @@ fieldset {
 
 legend {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     padding-top: 8px;
     padding-bottom: 5px;
     border-bottom: 1px solid #eaecf0;
 }
 
 label {
-    font-size: 16px;
+    font-size: 14px;
 }

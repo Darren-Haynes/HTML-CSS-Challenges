@@ -7,7 +7,8 @@ Global
     padding: 0;
     font-size: 0;
     box-sizing: border-box;
-    font-family: serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202122;
 }
 
 html {
@@ -31,12 +32,13 @@ Hamburger and Logo
 h1 {
     font-size: 20px;
     font-weight: 100;
+    font-family: serif;
     text-transform: uppercase;
-    /*letter-spacing: 0.1cap;*/
     display: inline-block;
 }
 
 .big-letter {
+    font-family: serif;
     font-size: 24px;
 }
 
@@ -71,6 +73,8 @@ h1 {
 
 #logo-text p {
     font-size: 13px;
+    font-family: serif;
+    margin-top: -3px;
 }
 
 #wiki-title {
@@ -99,8 +103,9 @@ Search Bar
 
 input[type="text"] {
     text-align: right;
-    font-size: 16px;
-    padding-right: 255px;
+    font-size: 15px;
+    font-family: serif;
+    padding-right: 265px;
     padding-top: 1px;
     display: inline-block;
     width: 85%;
@@ -113,7 +118,7 @@ input[type="text"] {
 #search-btn {
     display: inline-block;
     vertical-align: top;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     height: 30px;
     padding: 5px 9px 9px 9px;
@@ -185,7 +190,7 @@ Header Links
 }
 
 #header-links > li > a {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1100px) {
