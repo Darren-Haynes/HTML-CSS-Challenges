@@ -1,4 +1,24 @@
 /*
+GLOBAL styles
+*/
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-bottom: 1px solid #eaecf0;
+}
+
+blockquote {
+    text-indent: 40px;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/*
  * Sidebar styles
  */
 sidebar {
@@ -48,18 +68,33 @@ article > h1 {
     display: block;
     text-transform: capitalize;
     font-size: 30px;
-    border-bottom: 1px solid #eaecf0;
 }
 
-#article-talk {
+#article-talk,
+#read-edit {
+    display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eaecf0;
+}
+
+#read-edit {
+    float: right;
 }
 
 #article-talk > a {
     font-size: 16px;
     padding-right: 10px;
+}
+
+#read-edit > a {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+#wiki-byline {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 /*
