@@ -6,10 +6,28 @@ p {
     font-size: 16px;
     word-spacing: 1px;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 hr {
     border-bottom: 1px solid #eaecf0;
+}
+
+h2 {
+    color: #111418;
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a3a9b1;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
 }
 
 h4 {
@@ -172,6 +190,7 @@ article > h1 {
 #main-article {
     display: inline-block;
     width: calc(100% - 325px);
+    padding-right: 20px;
 }
 
 #overview {
