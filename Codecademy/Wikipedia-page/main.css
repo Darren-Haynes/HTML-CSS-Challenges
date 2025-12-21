@@ -260,13 +260,11 @@ options {
     vertical-align: top;
     display: inline-block;
     height: 100px;
-    width: 300px;
-    background-color: green;
-    padding-left: 20px;
+    width: 260px;
+    padding: 46px 0 5px 45px;
 }
 
 #options-header {
-    padding-bottom: 5px;
     border-bottom: 1px solid #eaecf0;
 }
 
@@ -286,6 +284,14 @@ legend {
     padding-top: 8px;
     padding-bottom: 5px;
     border-bottom: 1px solid #eaecf0;
+    margin-bottom: 10px;
+}
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 12px;
 }
 
 label {
