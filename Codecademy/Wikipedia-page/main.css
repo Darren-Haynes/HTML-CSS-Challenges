@@ -117,8 +117,11 @@ sidebar {
     display: inline-block;
     vertical-align: top;
     height: 100px;
-    width: 300px;
+    width: 240px;
     background-color: white;
+    margin: 52px 10px 0 10px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #sidebar-header {
@@ -142,8 +145,19 @@ sidebar {
     padding: 0 6px;
 }
 
+#link-ography {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
 sidebar > #link-ography > ul > li > a {
     font-size: 14px;
+}
+
+@media screen and (max-width: 1112px) {
+    sidebar {
+        display: none;
+    }
 }
 
 /*
@@ -152,7 +166,7 @@ sidebar > #link-ography > ul > li > a {
 article {
     display: inline-block;
     height: 100px;
-    width: calc(100% - 600px);
+    width: calc(100% - 520px);
 }
 
 article > h1 {
@@ -186,6 +200,14 @@ article > h1 {
 
 #main-article {
     padding-right: 20px;
+}
+
+@media screen and (max-width: 1112px) {
+    article {
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 
 /*
@@ -239,6 +261,7 @@ OVERVIEW AND IMAGES
 
 .img-caption {
     float: right;
+    clear: right;
     border: 1px solid #a3a9b1;
     background-color: #f8f9fa;
     padding: 3px;
@@ -256,22 +279,22 @@ figure figcaption {
 /*
  * Options styles
  */
-options {
+#options-section {
     vertical-align: top;
     display: inline-block;
     height: 100px;
     width: 260px;
-    padding: 46px 0 5px 45px;
+    padding: 46px 0 5px 40px;
 }
 
 #options-header {
     border-bottom: 1px solid #eaecf0;
+    padding-left: 10px;
 }
 
 #options-header > h4 {
     display: inline-block;
     font-size: 14px;
-    padding-right: 12px;
 }
 
 fieldset {
@@ -296,4 +319,10 @@ input[type="radio"] {
 
 label {
     font-size: 14px;
+}
+
+@media screen and (max-width: 1112px) {
+    #options-section {
+        display: none;
+    }
 }
